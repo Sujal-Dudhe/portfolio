@@ -68,16 +68,20 @@ src/
 
     ```bash
     git clone https://github.com/Sujal-Dudhe/portfolio.git
+    ```
+  
+2.  **Navigate to the project directory:**
+    ```bash
     cd portfolio
     ```
-
-2.  **Install dependencies**
+    
+3.  **Install dependencies**
 
     ```bash
     npm install
     ```
 
-3.  **Start the development server**
+4.  **Start the development server**
     ```bash
     npm run dev
     ```
