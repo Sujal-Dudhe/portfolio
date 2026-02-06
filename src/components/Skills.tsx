@@ -27,14 +27,14 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="section-container bg-card/30">
-      <h2 className="text-2xl md:text-3xl font-bold mb-12">
+    <section id="skills" className="section-container">
+      <h2 className="section-heading">
         <span className="text-gradient">Skills & Technologies</span>
       </h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {skillCategories.map((category) => (
-          <div key={category.title} className="p-6 bg-card border border-border rounded-xl">
+          <div key={category.title} className="p-6 glass-card hover:border-primary/40 transition-colors duration-300">
             <h3 className="text-lg font-semibold text-primary mb-4 font-mono">
               {category.title}
             </h3>

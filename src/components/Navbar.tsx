@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-lg border-b border-border" : ""
+        isScrolled ? "bg-background/55 backdrop-blur-2xl border-b border-white/10 shadow-[0_12px_36px_hsl(var(--background)/0.65)]" : ""
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -97,7 +97,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-card border-b border-border">
+        <div className="md:hidden bg-background/70 backdrop-blur-xl border-b border-white/10">
           <ul className="px-6 py-4 flex flex-col gap-4">
             {navItems.map((item) => (
               <li key={item.label}>

@@ -35,7 +35,7 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="section-container">
-      <h2 className="text-2xl md:text-3xl font-bold mb-12">
+      <h2 className="section-heading">
         <span className="text-gradient">Things I've Built</span>
       </h2>
 

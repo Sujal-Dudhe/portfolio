@@ -25,7 +25,7 @@ const education = [
 const Education = () => {
   return (
     <section id="education" className="section-container bg-card/30">
-      <h2 className="text-2xl md:text-3xl font-bold mb-12">
+      <h2 className="section-heading">
         <span className="text-gradient">Education</span>
       </h2>
 
@@ -34,7 +34,7 @@ const Education = () => {
           <div key={index} className="timeline-item">
             <div className="timeline-dot" />
             
-            <div className="pb-2">
+            <div className="pb-2 glass-card p-5">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
                 <h3 className="text-lg font-semibold text-foreground flex items-center gap-2">
                   <GraduationCap className="text-primary" size={20} />

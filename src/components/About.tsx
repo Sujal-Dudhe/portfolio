@@ -10,7 +10,7 @@ const highlights = [
 const About = () => {
   return (
     <section id="about" className="section-container">
-      <h2 className="text-2xl md:text-3xl font-bold mb-12">
+      <h2 className="section-heading">
         <span className="text-gradient">About Me</span>
       </h2>
 
@@ -31,7 +31,7 @@ const About = () => {
           {highlights.map(({ icon: Icon, label, desc }) => (
             <div
               key={label}
-              className="p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-colors group"
+              className="p-4 glass-card hover:border-primary/50 transition-colors group"
             >
               <Icon className="text-primary mb-2 group-hover:scale-110 transition-transform" size={24} />
               <h3 className="font-semibold text-foreground text-sm">{label}</h3>

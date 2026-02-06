@@ -21,7 +21,7 @@ const achievements = [
 const Achievements = () => {
   return (
     <section className="section-container">
-      <h2 className="text-2xl md:text-3xl font-bold mb-12">
+      <h2 className="section-heading">
         <span className="text-gradient">Achievements</span>
       </h2>
 
@@ -29,7 +29,7 @@ const Achievements = () => {
         {achievements.map((achievement, index) => (
           <div
             key={index}
-            className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-all duration-300 group hover:glow-soft"
+            className="p-6 glass-card hover:border-primary/50 transition-all duration-300 group hover:glow-soft"
           >
             <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
               <achievement.icon className="text-primary" size={24} />

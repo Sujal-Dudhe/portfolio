@@ -4,8 +4,8 @@ import { SOCIAL_LINKS, PERSONAL_INFO } from "../constants";
 const Contact = () => {
   return (
     <section id="contact" className="section-container bg-card/30">
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-6">
+      <div className="max-w-2xl mx-auto text-center glass-card p-8 md:p-10">
+        <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
           <span className="text-gradient">Get In Touch</span>
         </h2>
         

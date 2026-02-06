@@ -88,7 +88,19 @@
   }
 
   .section-container {
-    @apply max-w-5xl mx-auto px-6 py-16 md:py-24;
+    @apply max-w-5xl mx-auto px-6 py-16 md:py-24 relative;
+  }
+
+  .section-heading {
+    @apply text-2xl md:text-3xl font-bold mb-12 tracking-tight;
+  }
+
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-xl border border-white/10 rounded-2xl shadow-[0_8px_32px_hsl(var(--background)/0.45)];
+  }
+
+  .glass-panel {
+    @apply bg-background/45 backdrop-blur-2xl border border-white/10 rounded-3xl shadow-[0_20px_50px_hsl(var(--background)/0.55)];
   }
 
   .nav-link {
@@ -96,7 +108,7 @@
   }
 
   .project-card {
-    @apply bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:glow-soft;
+    @apply glass-card p-6 hover:border-primary/50 transition-all duration-300 hover:glow-soft hover:-translate-y-1;
   }
 
   .skill-tag {
@@ -141,6 +153,18 @@
 
   .animation-delay-500 {
     animation-delay: 500ms;
+  }
+
+  .bg-grid {
+    background-image: linear-gradient(hsl(var(--border) / 0.35) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.35) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-radial-glow {
+    background: radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.16) 0%, transparent 46%),
+      radial-gradient(circle at 80% 10%, hsl(var(--accent) / 0.14) 0%, transparent 44%),
+      radial-gradient(circle at 50% 90%, hsl(var(--primary) / 0.12) 0%, transparent 40%);
   }
 }
 

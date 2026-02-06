@@ -2,7 +2,7 @@ import { PERSONAL_INFO } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="py-8 text-center border-t border-border">
+    <footer className="py-8 text-center border-t border-white/10 bg-card/40 backdrop-blur-md">
       <p className="text-muted-foreground text-sm font-mono">
         Designed & Built by{" "}
         <span className="text-primary">{PERSONAL_INFO.name}</span>
