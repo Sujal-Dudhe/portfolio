@@ -13,8 +13,8 @@ const achievements = [
   },
   {
     icon: Trophy,
-    title: "Top 40 in College",
-    description: "Ranked among Top 40 out of 1100+ college students on coding Leaderboard of GeeksforGeeks platform.",
+    title: "Top 10 in College",
+    description: "Ranked among Top 10 out of 1100+ college students on coding Leaderboard of GeeksforGeeks platform.",
   },
 ];
 

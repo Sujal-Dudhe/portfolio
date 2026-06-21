@@ -8,10 +8,9 @@ export const SOCIAL_LINKS = {
 
 export const PERSONAL_INFO = {
   name: "Sujal Dudhe",
-  title: "Full-Stack MERN Developer",
+  title: "Full-Stack Developer",
   location: "Yavatmal, India",
   phone: "+91 9172930530",
 };
 
-export const RESUME_URL = "/resume.pdf"; 
-
+export const RESUME_URL = "https://drive.google.com/file/d/1GS5FIkFqhEO3fnF2mGCbps7u5sciL76f/view?usp=drive_link";

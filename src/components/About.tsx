@@ -1,10 +1,10 @@
 import { Code2, Server, Database, GitBranch } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "Frontend", desc: "React, HTML, CSS" },
-  { icon: Server, label: "Backend", desc: "Node.js, Express" },
-  { icon: Database, label: "Database", desc: "MongoDB, MySQL" },
-  { icon: GitBranch, label: "Version Control", desc: "Git, GitHub" },
+  { icon: Code2, label: "Frontend", desc: "React, TypeScript, CSS" },
+  { icon: Server, label: "Backend", desc: "Node.js, Express, REST APIs" },
+  { icon: Database, label: "Database / ORM", desc: "MongoDB, PostgreSQL, Prisma" },
+  { icon: GitBranch, label: "Deployment", desc: "Vercel, Render, Git" },
 ];
 
 const About = () => {
@@ -17,13 +17,16 @@ const About = () => {
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2 space-y-4">
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm Sujal, a Full-Stack MERN Developer and Computer Science student at <span className="text-primary">Prof. Ram Meghe Institute of Technology and Research</span>. 
-            I specialize in building scalable web applications and have a strong command of <span className="text-primary">Java</span> and <span className="text-primary">Data Structures</span>.
+            I'm Sujal, a <span className="text-primary">Full-Stack Developer</span> with experience building production-ready web applications using the <span className="text-primary">MERN</span> and <span className="text-primary">PERN</span> stacks. 
+            I specialize in <span className="text-primary">React.js</span>, <span className="text-primary">Node.js</span>, <span className="text-primary">Express.js</span>, <span className="text-primary">TypeScript</span>, <span className="text-primary">PostgreSQL</span>, <span className="text-primary">MongoDB</span>, and REST API development.
           </p>
           
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Beyond development, I am an enthusiastic problem solver with over <span className="text-primary">350+ DSA problems</span> solved. 
-            I'm dedicated to writing clean, efficient code and continuously learning new technologies to deliver exceptional digital experiences.
+            I have hands-on experience implementing <span className="text-primary">JWT authentication</span>, utilizing <span className="text-primary">Prisma ORM</span>, and integrating third-party services like <span className="text-primary">Razorpay</span> and <span className="text-primary">Nodemailer</span>. I am also experienced in cloud deployment using platforms like <span className="text-primary">Vercel</span> and <span className="text-primary">Render</span>.
+          </p>
+
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            Proficient in <span className="text-primary">Data Structures and Algorithms</span>, I possess strong problem-solving skills with over <span className="text-primary">350+ solved problems</span>, dedicated to writing clean, optimized, and efficient code.
           </p>
         </div>
 

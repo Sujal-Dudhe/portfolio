@@ -1,6 +1,16 @@
-import { ExternalLink, Github, MessageCircle, ShoppingBag, Languages } from "lucide-react";
+import { ExternalLink, Github, MessageCircle, ShoppingBag, Languages, Receipt } from "lucide-react";
 
 const projects = [
+  {
+    title: "Invoice App",
+    description:
+      "A full-stack invoice SaaS featuring end-to-end payment workflows, Razorpay webhook integration with HMAC-SHA256 signature verification, atomic invoice creation with Prisma transactions, parallel data aggregations, and automatic Nodemailer notifications.",
+    tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma ORM", "Razorpay", "Nodemailer", "Vercel", "Render"],
+    github: "https://github.com/Sujal-Dudhe/invoice-saas",
+    live: "https://invoice-saas-peach.vercel.app/login",
+    icon: Receipt,
+    featured: true,
+  },
   {
     title: "Realtime Chat Application",
     description:
@@ -86,7 +96,17 @@ const Projects = () => {
                 </div>
               </div>
 
-              <p className="text-muted-foreground mb-4">{project.description}</p>
+              {Array.isArray(project.description) ? (
+                <ul className="list-disc pl-5 space-y-1.5 mb-4 text-muted-foreground text-sm">
+                  {project.description.map((point, index) => (
+                    <li key={index} className="leading-relaxed">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-muted-foreground mb-4">{project.description}</p>
+              )}
 
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (

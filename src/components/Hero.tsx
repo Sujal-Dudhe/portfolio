@@ -25,9 +25,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-8 animate-fade-up animation-delay-300">
-            I'm a <span className="text-primary">Full-Stack MERN Developer</span> specializing in building exceptional 
-            digital experiences. Currently pursuing my B.E. in Computer Science while continuously improving through 
-            project-based learning.
+            I'm a <span className="text-primary">Full-Stack Developer</span> specializing in building production-ready web applications using the <span className="text-primary">MERN</span> and <span className="text-primary">PERN</span> stacks, with strong problem-solving skills in <span className="text-primary">Data Structures & Algorithms</span>.
           </p>
 
           <div className="flex flex-col md:flex-row items-center gap-6 animate-fade-up animation-delay-400">
